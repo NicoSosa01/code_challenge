@@ -4,21 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>src="script.js"</script>
 </head>
-<body>    
-        <h1>Formulario de Registro</h1>
-        <form>     
-    
-        <p>Nombre: <br> 
-            <input type= "text" name="Nombre" required></input></p>
-    
-        <p>Apellido: <br> 
-            <input type= "text" name="Apellido" required></input></p>
-        <p>Fecha de nacimiento <br> 
-            <input type= "date" name="Fecha de nacimiento" required></input></p>       
-    
-        <input type="submit" value="OK" size="20" enabled> </input>
-        </form>
-        
+<body>
+    <h1>Formulario de Registro</h1>
+<form name="login" action="">
+    <p>Nombre: <br> 
+    <input type="text" name="Nombre" id="name" required ></input></p>
+    <p>Apellido: <br> 
+    <input type="text" id="Apellido" id="lastName" required ></input></p>
+    <p>Fecha de nacimiento <br>
+    <input type="date" id="nacimiento" id="nacimiento"></input></p> 
+    <button type="submit" id="send" onclick="sendForm()">Enviar</button>
+</form>  
 </body>
 </html>
